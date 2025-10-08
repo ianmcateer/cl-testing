@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Custom Properties - Card Component</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme toggle button -->
+    <div class="controls">
+        <button onclick="document.body.classList.toggle('dark-theme')">
+            Toggle Theme
+        </button>
+    </div>
+
+    <!-- Card container -->
+    <div class="card-container">
+        <!-- Card 1 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>Welcome Card</h2>
+            </header>
+            <div class="card-body">
+                <p>This is a themeable card component built with CSS Custom Properties. Click the toggle button to switch between light and dark themes.</p>
+            </div>
+            <footer class="card-footer">
+                <button class="card-button">Learn More</button>
+            </footer>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>Features</h2>
+            </header>
+            <div class="card-body">
+                <ul>
+                    <li>CSS Variables for theming</li>
+                    <li>Responsive design</li>
+                    <li>Smooth transitions</li>
+                    <li>Accessible contrast</li>
+                </ul>
+            </div>
+            <footer class="card-footer">
+                <button class="card-button">View All</button>
+            </footer>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+            <header class="card-header">
+                <h2>Benefits</h2>
+            </header>
+            <div class="card-body">
+                <p>Using CSS Custom Properties makes it easy to maintain consistent design systems and create dynamic, themeable interfaces.</p>
+            </div>
+            <footer class="card-footer">
+                <button class="card-button">Get Started</button>
+            </footer>
+        </article>
+    </div>
+</body>
+</html>
